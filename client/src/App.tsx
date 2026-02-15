@@ -1,10 +1,13 @@
 import "./App.css";
+import Hkform from "./components/Hkform";
 
 function App() {
   return (
-    <>
-      <h1 className="text-2xl text-green-500">Hi Mom!</h1>
-    </>
+    <div className="mt-40">
+      <div className="w-1/4 m-auto">
+        <Hkform />
+      </div>
+    </div>
   );
 }
 
